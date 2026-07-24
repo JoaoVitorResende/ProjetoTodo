@@ -1,8 +1,9 @@
+import Text from "./components/text";
+
 export default function App() {
 
   return (
-    <div className="text-pink-dark">
-     Hello world !
-    </div>)
+    <Text>ola mundo</Text>
+    )
   
 }
