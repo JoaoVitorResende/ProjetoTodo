@@ -1,5 +1,7 @@
 import Text from "./components/text";
 import TrashIcon from "./assets/icons/Trash.svg?react";
+import SpinIcon from "./assets/icons/spinner.svg?react";
+import Icon from "./components/icon";
 export default function App() {
 
   return (
@@ -8,7 +10,8 @@ export default function App() {
         <Text variant={"body-md"}>ola mundo</Text>
       </div>
       <div className="flex gap-1">
-        <TrashIcon className="fill-green-base"/>
+        <Icon svg ={TrashIcon} className="fill-green-base"/>
+        <Icon svg ={SpinIcon} animate/>
       </div>
     </div>
   )
