@@ -2,6 +2,7 @@ import Text from "./components/text";
 import TrashIcon from "./assets/icons/Trash.svg?react";
 import SpinIcon from "./assets/icons/spinner.svg?react";
 import Icon from "./components/icon";
+import Badge from "./components/badge";
 export default function App() {
 
   return (
@@ -12,6 +13,10 @@ export default function App() {
       <div className="flex gap-1">
         <Icon svg ={TrashIcon} className="fill-green-base"/>
         <Icon svg ={SpinIcon} animate/>
+      </div>
+      <div>
+        <Badge variant={"secondary"}>5</Badge>
+        <Badge variant={"primary"}>2 de 5</Badge>
       </div>
     </div>
   )
