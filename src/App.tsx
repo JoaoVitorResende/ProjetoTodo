@@ -23,9 +23,10 @@ export default function App() {
           <Icon svg={TrashIcon} className="fill-green-base" />
           <Icon svg={SpinIcon} animate />
         </div>
-        <div>
+        <div className="flex gap-1">
           <Badge variant={"secondary"}>5</Badge>
           <Badge variant={"primary"}>2 de 5</Badge>
+          <Badge loading>1</Badge>
         </div>
         <div>
           <Button icon={PlusIcon}>Nova task</Button>
@@ -34,12 +35,14 @@ export default function App() {
           <ButtonIcon icon={TrashIcon} />
           <ButtonIcon icon={TrashIcon} variant={"secondary"} />
           <ButtonIcon icon={TrashIcon} variant={"tertiary"} />
+          <ButtonIcon icon={TrashIcon} loading />
         </div>
         <div>
           <InputText />
         </div>
         <div>
           <InputCheckBox />
+          <InputCheckBox loading/>
         </div>
         <div>
           <Card size="md">teste</Card>
