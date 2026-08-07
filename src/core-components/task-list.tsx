@@ -19,9 +19,7 @@ export default function TaskList() {
                 <Button icon={PlusIcon} className="w-full" onClick={handleNewTask}>Nova tarefa</Button>
             </section>
             <section className="space-y-2">
-                <TaskItem/>
-                <TaskItem/>
-                <TaskItem/>
+                {tasks.map((task) => (<TaskItem key={task.id} task={task}/>))}
             </section>
         </>
     )
