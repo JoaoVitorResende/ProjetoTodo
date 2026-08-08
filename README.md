@@ -84,6 +84,10 @@ To get a local copy up and running, follow these simple steps.
 - `npm run lint`: Runs ESLint to check for code quality issues.
 - `npm run preview`: Previews the production build locally.
 
+<img width="974" height="769" alt="image" src="https://github.com/user-attachments/assets/9f3138e1-ca8c-4433-9e4e-64ac2539ebfe" />
+
+
+
 
 # React + TypeScript + Vite
 
